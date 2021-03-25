@@ -4,10 +4,10 @@ const expect = chai.expect;
 const Turn = require('../src/Turn');
 const Card = require('../src/Card');
 const Deck = require('../src/Deck');
-const prototypeData = require('../src/data');
 
 describe('Deck', function() {
   let deck;
+  let card;
 
   beforeEach(() => {
     deck = new Deck();
@@ -31,7 +31,6 @@ describe('Deck', function() {
     deck.addCard(card1);
     deck.addCard(card2);
     deck.addCard(card3);
-    // console.log(deck.cards);
 
     expect(deck.cards).to.deep.equal([{id: 1, question: 'What is Ellie\'s favorite food?', answers: ['sushi', 'beans', 'tomato pie'], correctAnswer: 'sushi'},
     {id: 2, question: 'What is Robbie\'s favorite animal', answers: ['sea otter', 'pug', 'capybara'], correctAnswer: 'sea otter'},
@@ -48,8 +47,9 @@ describe('Deck', function() {
     deck.addCard(card1);
     deck.addCard(card2);
     deck.addCard(card3);
-    
+
     expect(deck.countCards()).to.equal(4);
+    expect(deck.cards.length).to.be.a('number');
   });
 
 })
