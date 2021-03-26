@@ -51,7 +51,7 @@ describe('Turn', function() {
     let turn = new Turn('beans', card);
 
     expect(turn.evaluateGuess(turn.guess)).to.equal(false);
-  });
+  })
 
   it('should be able tell user if they got the answer RIGHT',() => {
     expect(turn.giveFeedback()).to.equal('correct!');

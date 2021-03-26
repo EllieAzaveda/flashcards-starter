@@ -9,14 +9,11 @@ const Round = require('../src/Round');
 class Game {
   constructor() {
     this.currentRound;
-    this.rounds = 0;
   }
 
   start() {
-    this.rounds++;
-
-    const cardInfo = prototypeQuestions.map((info) => {
-       let card = new Card(info.id, info.question, info.answers, info.correctAnswer);
+    const cardInfo = prototypeQuestions.map(card => {
+       card = new Card(card.id, card.question, card.answers, card.correctAnswer);
        return card;
      });
 
