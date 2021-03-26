@@ -14,7 +14,7 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 
 Do you love trying to play a game that doesn't work?? Perfect! This game is for you! For an unknown reason to the developer, there is a bug that's preventing this game's general capabilities. There is a test suite for each class file with passing tests for each method.
 
-![Alt Text](https://giphy.com/gifs/kGCuRgmbnO9EI/html5)
+![Alt Text](https://media.giphy.com/media/kGCuRgmbnO9EI/giphy.gif5)
 
 ## Project Planning Board
 
@@ -22,7 +22,7 @@ I did TRY to plan. If you want to see how I did that, click [here](https://trell
 
 ## Contributor
 
-- [🧚 Ellie Azaveda](https://github.com/EllieAzaveda
+- [🧚 Ellie Azaveda](https://github.com/EllieAzaveda)
 
 ## Set-up
 
