@@ -6,7 +6,6 @@ class Round {
     this.currentCard = currentCard;
     this.turns = 0;
     this.incorrectGuesses = [];
-    this.percentCorrect = 0;
     // Maybe for future iteration add:
     //this.correctGuesses = [];
   }
@@ -32,12 +31,12 @@ class Round {
     let percent = 100 - (this.incorrectGuesses.length/this.turns * 100);
     this.percentCorrect = Math.ceil(percent);
 
-    return this.percentCorrect;
+    console.log(`** Round over! ** You answered ${this.percentCorrect}% of the questions correctly!`);
+    return `** Round over! ** You answered ${this.percentCorrect}% of the questions correctly!`;
   }
 
   endRound() {
-    console.log(`** Round over! ** You answered ${this.percentCorrect}% of the questions correctly!`);
-    return `** Round over! ** You answered ${this.percentCorrect}% of the questions correctly!`;
+    this.calculatePercentCorrect();
   }
 
 }

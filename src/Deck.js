@@ -1,6 +1,6 @@
 class Deck {
   constructor(cards) {
-    this.cards = [];
+    this.cards = cards;
   }
 
   addCard(card) {
