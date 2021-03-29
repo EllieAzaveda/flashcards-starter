@@ -12,13 +12,13 @@ The project spec & rubric can be found [here](https://frontend.turing.io/project
 
 ## Overview
 
-Do you love trying to play a game that doesn't work?? Perfect! This game is for you! For an unknown reason to the developer, there is a bug that's preventing this game's general capabilities. There is a test suite for each class file with passing tests for each method.
+Do you love learning about code in any way that you can? Try testing your knowledge with this simple game in your terminal now!
 
-![Not even this GIF will work for me](https://media.giphy.com/media/N4xCVPenanVcI/giphy.gif)
+![FlashCards_GIPHY](https://user-images.githubusercontent.com/76409536/112774613-76566680-8ff7-11eb-8869-38aa4448728d.gif)
 
 ## Project Planning Board
 
-I did TRY to plan. If you want to see how I did that, click [here](https://trello.com/b/V0YsSj1I)
+If you want to see how I planned, click [here](https://trello.com/b/V0YsSj1I)
 
 ## Contributor
 
@@ -36,9 +36,9 @@ I did TRY to plan. If you want to see how I did that, click [here](https://trell
 
 ### Future Iterations
 
-My number 1 goal is definitely to find the bug that is throwing the error. Then I would like to try adding some features from iteration 4.
+I would like to try adding some features from iteration 4 in the future.
 
-### Want to contribute? (Because clearly I need the help)
+### Want to contribute? 
 
 - Interested in contributing to Flashcards?
 - Fork this project and clone to your machine.
